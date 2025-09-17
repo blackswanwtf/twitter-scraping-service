@@ -1,0 +1,44 @@
+{
+  "name": "blackswan-twitter-scraping-service",
+  "version": "1.0.0",
+  "description": "Twitter monitoring service with improved thread detection, consolidated collections, faster duplicate filtering, and comprehensive token account management",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js",
+    "dev": "nodemon --experimental-json-modules index.js"
+  },
+  "keywords": [
+    "twitter",
+    "monitoring",
+    "tweet-collection",
+    "thread-detection",
+    "firestore",
+    "real-time",
+    "social-media",
+    "blackswan",
+    "automation",
+    "api",
+    "nodejs"
+  ],
+  "author": "Muhammad Bilal Motiwala",
+  "project": "Black Swan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@elizaos/plugin-twitter": "1.0.0-beta.53",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "firebase-admin": "^11.11.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
